@@ -14,17 +14,6 @@ execute 'Install oh-my-zsh' do
   not_if "test -e ~/.oh-my-zsh"
 end
 
-execute 'Install dracula thema' do
-  user node[:user]
-  command <<-EOC
-  ~/bin/ghq get https://github.com/dracula/zsh.git
-  cd ~/src/github.com/dracula/zsh
-  cp dracula.zsh-theme  $HOME/.oh-my-zsh/themes
-  EOC
-
-  not_if 'test -e $HOME/.oh-my-zsh/themes/dracula.zsh-theme'
-end
-
 execute 'Install zsh-autosuggestions' do
   user node[:user]
   command <<-EOC
