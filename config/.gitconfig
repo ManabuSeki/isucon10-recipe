@@ -1,0 +1,24 @@
+[include]
+  path = .gitconfig.local
+[color]
+  ui = true
+[core]
+  excludesfile = ~/.gitignore
+  editor = vim
+  filemode = true
+[init]
+  templatedir = ~/.git-template
+[push]
+	default = simple
+[branch]
+	autosetuprebase = always
+[pull]
+  rebase = true
+[ghq]
+  root = ~/src
+[url "git@github.com:"]
+  pushInsteadOf = https://github.com/
+  pushInsteadOf = git://github.com/
+[url "git@gist.github.com:"]
+  pushInsteadOf = https://gist.github.com/
+  pushInsteadOf = git://gist.github.com/
