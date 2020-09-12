@@ -1,4 +1,5 @@
 # Go
-export GOPATH=$HOME
-export PATH="${GOPATH}/bin:$PATH"
-export GOMAXPROCS=4
+# END ANSIBLE MANAGED BLOCK Node
+# BEGIN ANSIBLE MANAGED BLOCK go
+export PATH=/home/isucon/local/go/bin:/home/isucon/go/bin:$PATH
+export GOROOT=/home/isucon/local/go
