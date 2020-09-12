@@ -1,0 +1,12 @@
+include_role 'base'
+
+include_cookbook 'git'
+include_cookbook 'ghq'
+include_cookbook 'peco'
+include_cookbook 'zsh'
+include_cookbook 'tmux'
+include_cookbook 'jq'
+include_cookbook 'alp'
+include_cookbook 'myprofiler'
+include_cookbook 'slackcat'
+include_cookbook 'kataribe'

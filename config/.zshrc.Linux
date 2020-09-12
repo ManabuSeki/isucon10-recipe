@@ -1,0 +1,6 @@
+# custom path
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# theme
+ZSH_THEME="dracula"
+
