@@ -4,4 +4,3 @@ github_binary 'ghq' do
   archive "ghq_#{node[:os]}_amd64.zip"
 end
 
-include_cookbook 'git'
